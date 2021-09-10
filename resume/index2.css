@@ -1,0 +1,17 @@
+h2 {
+  color: #purple;
+  text-align: center;
+}
+body{
+  background-color: lavender;
+}
+.center{
+  text-align: center;
+}
+
+.middle{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ 
+}
