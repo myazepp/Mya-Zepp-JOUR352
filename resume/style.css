@@ -1,4 +1,9 @@
 /*style for my resume*/
+#container{
+  width:100%;
+  max-width: 1200px;
+}
+
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
@@ -6,40 +11,52 @@ body{
   font-weight: 400;
 }
 
-h1{
+#name{
   font-size:3em;
   text-transform:uppercase;
   text-align:center;
   color: #33485e;
+  border-bottom: 2px solid #33485e;
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 strong{
   color:#33485e;
   text-transform: uppercase;
   font-size: 1.5em;
+
 }
 
-h2{
+.sectionheader{
+  margin: 20 0 10 0;
   font-size: 1.5em;
   text-transform:uppercase;
   background-color: #33485e;
   color: #fff;
+  width: 70%;
+  min-width: 300px;
 }
 
-h3{
+.jobtitle{
   font-size: 2em;
   font-weight: 600;
 }
 
-h4{
+.organization{
   font-size: 1.5em;
   font-weight: 400;
 }
 
-h5{
+.date{
   font-size: 1em:
   font-weight:400;
   font-style: italic;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 ul{
