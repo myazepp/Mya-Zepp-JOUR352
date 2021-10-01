@@ -100,3 +100,13 @@ ul{
   margin-left: 0px;
   margin-right: 0px;
 }
+
+.top{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+/*Give it a width of 60% with a minimum width of 300 pixels.
+ Center by giving adding "margin:0 auto;" and give
+ it a bottom margin of 30 pixels.*/
