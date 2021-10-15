@@ -28,15 +28,44 @@ p{
   font-family: Georgia, serif;
   font-size: 13px;
 }
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    float: right;
+}
 
+
+figcaption {
+    float: right;
+    color: #000;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
 .gif{
  display: block;
 float: right;
 margin: 20px 5px 0 0;
- width: 400px;
- height: 400px;
+ width: 300px;
+ height: 300px;
 }
 
+.figure2 {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    float: left;
+}
+
+
+.figcap2 {
+    float: left;
+    color: #000;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
 .image3{
   float: left;
   margin: 5px 20px 0 0;
@@ -50,4 +79,8 @@ margin: 20px 5px 0 0;
   margin-right: auto;
   width: 600px;
   height:500px;
+}
+
+.caption1{
+  text-align:center;
 }
