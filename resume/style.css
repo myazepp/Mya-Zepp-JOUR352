@@ -19,19 +19,19 @@ body{
 }
 
 #homebutton1{
- width: 170px;
+ width: 390px;
  background-color: #400010;
 }
 
 #homebutton2{
   flex-wrap: wrap;
-  width: 170px;
+  width: 390px;
   background-color: #400010;
 }
 
 #homebutton3{
   flex-wrap: wrap;
-  width: 170px;
+  width: 390px;
   background-color: #400010;
 }
 
@@ -142,6 +142,12 @@ ul{
 
 .descriptiontop{
   text-align: left;
+}
+
+.nobullets{
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0;
 }
 
 @media only screen and (max-width: 500px){
