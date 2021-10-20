@@ -14,8 +14,26 @@ body{
 
 }
 
+#color{
+  background-color: #A2A1A1;
+}
 
+#homebutton1{
+ width: 170px;
+ background-color: #400010;
+}
 
+#homebutton2{
+  flex-wrap: wrap;
+  width: 170px;
+  background-color: #400010;
+}
+
+#homebutton3{
+  flex-wrap: wrap;
+  width: 170px;
+  background-color: #400010;
+}
 
 #pagetopper{
   width: 100%;
@@ -30,6 +48,10 @@ body{
   width: 60%;
   min-width: 300px;
   margin: 0 auto;
+}
+
+#name2{
+  color: #400010;
 }
 
 #title{
