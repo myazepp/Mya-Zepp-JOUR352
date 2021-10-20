@@ -3,6 +3,7 @@
   width:100%;
   max-width: 1200px;
   margin: 0 auto
+
 }
 
 body{
@@ -10,7 +11,11 @@ body{
   font-size: 1em;
   color: #444;
   font-weight: 400;
+
 }
+
+
+
 
 #pagetopper{
   width: 100%;
@@ -78,6 +83,7 @@ ul{
   margin: 0px;
   padding: 0px;
   text-align: center;
+  font-weight: 600;
 }
 
 .menu li{
