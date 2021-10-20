@@ -143,6 +143,7 @@ ul{
 .descriptiontop{
 text-align:left;
 font-size: 1.5em;
+padding-top: 70px;
 }
 
 .nobullets{
@@ -152,11 +153,13 @@ margin: 0;
 }
 
 .headshot{
-
+  padding-top: 70px;
+  padding-right: 15px;
+  padding-bottom: 0px;
 }
 
 figcaption{
-
+  text-align: center;
 }
 
 @media only screen and (max-width: 500px){
