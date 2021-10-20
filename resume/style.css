@@ -15,7 +15,7 @@ body{
 }
 
 #color{
-  background-color: #A2A1A1;
+  background-color: #ECECEC;
 }
 
 #homebutton1{
@@ -141,13 +141,22 @@ ul{
 }
 
 .descriptiontop{
-  text-align: left;
+text-align:left;
+font-size: 1.5em;
 }
 
 .nobullets{
 list-style-type: none; /* Remove bullets */
 padding: 0; /* Remove padding */
 margin: 0;
+}
+
+.headshot{
+
+}
+
+figcaption{
+
 }
 
 @media only screen and (max-width: 500px){
