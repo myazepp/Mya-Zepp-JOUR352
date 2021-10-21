@@ -1,6 +1,6 @@
 /*style for my resume*/
 #container{
-  width:100%;
+  width: 100%;
   max-width: 1200px;
   margin: 0 auto
 
@@ -9,7 +9,6 @@
 body{
   font-family: 'Open Sans', arial, sans-serif;
   font-size: 1em;
-  color: #444;
   font-weight: 400;
 
 }
@@ -163,6 +162,15 @@ figcaption{
 }
 
 @media only screen and (max-width: 500px){
+  body{
+    margin: auto;
+    width: 100%
+  }
+
+  #homepic{
+    align: right;
+  }
+
   /*add code here*/
 }
 /*Give it a width of 60% with a minimum width of 300 pixels.
