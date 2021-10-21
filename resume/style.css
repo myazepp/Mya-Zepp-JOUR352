@@ -18,19 +18,19 @@ body{
 }
 
 #homebutton1{
- width: 390px;
+ width: 380px;
  background-color: #400010;
 }
 
 #homebutton2{
   flex-wrap: wrap;
-  width: 390px;
+  width: 380px;
   background-color: #400010;
 }
 
 #homebutton3{
   flex-wrap: wrap;
-  width: 390px;
+  width: 380px;
   background-color: #400010;
 }
 
@@ -51,6 +51,9 @@ body{
 
 #name2{
   color: #400010;
+  font-size: 3em;
+  font-weight: 700;
+
 }
 
 #title{
@@ -147,7 +150,7 @@ padding-top: 70px;
 
 .nobullets{
 list-style-type: none; /* Remove bullets */
-padding: 0; /* Remove padding */
+padding: 0;/* Remove padding */
 margin: 0;
 }
 
@@ -161,15 +164,20 @@ figcaption{
   text-align: center;
 }
 
-@media only screen and (max-width: 500px){
+#homepic{
+
+}
+
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 812px) {
   body{
     margin: auto;
     width: 100%
   }
 
-  #homepic{
-    align: right;
-  }
+
+
+
 
   /*add code here*/
 }
