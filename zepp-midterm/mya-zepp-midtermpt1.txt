@@ -19,77 +19,86 @@ Questions
 
 1.  In the sentence below, put in the necessary code that would allow users to click on the word Google and open Google's homepage in a new browser:
 
-Google is the best search engine in the world.
-
-
+<p>
+    <a href="https://www.google.com/"> Google </a> is the best search engine in the world.
+</p>
 
 
 2.  Describe the purpose of a DIV tag.
 
-
+The div tag defines sections in an HTML document.
+It serves as a container for certain things.
 
 
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
+<!DOCTYPE html>
 
+<html lang="en">
 
+  <head>
+    <title> </title>
+  </head
 
+  <body>
+    <p> Hello World! </p>
+  </body>
 
-
-
-
-
+  </html>
 
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
 
-
+The <head> and the <body>. You would link a style sheet in the <head>
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
-
+<body>
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
 
 
+<div class="graphicbox"> </div>
 
-
+<div ID="name"> </div>
 
 
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
 
-
+<div ID="apple" class="fruit"> </div>
 
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
 
-
-
-
+.fruit{
+color: #000000;
+}
 
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
 
-
+  <img src="IMG.jpg" alt="picture" width="300px" height="300px">
 
 
 10.  Why do we use media queries?
 
-
+to define different styles for different media types.
+you could use media queries to make you font blue at 1200px but green at 500px
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+Serif looks francier then sans-serif because it has small strokes at the end of the letters.
+They both cover a wide array of fonts. Arial is san-serif while Times New Roman is serif
 
 
 12. Which of the following is a hexadecimal code?
-#FFCC33
+#FFCC33 - this one, its like a yellowish color
 123,543,242
 101010101
 -213
