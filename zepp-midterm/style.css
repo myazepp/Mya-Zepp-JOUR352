@@ -1,0 +1,133 @@
+#container{
+  margin: 0 auto;
+  width:100%;
+  max-width: 1200px;
+}
+
+#color{
+  background-color: #FAF9F6;
+}
+#headline{
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Times New Roman", Gerogia, serif;
+}
+
+
+#byline{
+font-size: 1.2em;
+font-weight: 500;
+font-style:italic;
+}
+
+#quote{
+  font-size: 2em;
+  font-family: "Kotta One", Georgia, serif;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+}
+
+.subhead{
+  font-family: "Helvetica", Georgia, serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+}
+
+p{
+ font-family: "Helvetica", Ariel, San-serif;
+ font-size: 12px;
+}
+/* I use padding so the text is not right up on the image */
+#headshot{
+  width: 250px;
+  height: 250px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.graphic{
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px
+}
+
+#readmore{
+  background-color: blue;
+}
+
+#button{
+  background-color: blue;
+  flex-wrap: wrap;
+  width: 380px;
+  height: 50px;
+}
+
+.image1{
+  width: 450px;
+  height:400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption1{
+  text-align: center;
+}
+
+.fig1 {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    float: left;
+}
+
+
+.figcap1{
+    float: left;
+    color: #000;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+#jacket{
+  float: left;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+}
+
+.fig2 {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 400px;
+    float: left;
+}
+
+
+.figcap2{
+    float: left;
+    color: #000;
+    font: italic smaller sans-serif;
+    text-align: center;
+}
+
+#learnmore{
+  text-align: center;
+}
+/*
+.figcap{
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  max-width: 400px;
+  float: left;
+} */
