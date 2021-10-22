@@ -7,10 +7,16 @@
 #color{
   background-color: #FAF9F6;
 }
+
+.row{
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
 #headline{
   font-size: 2em;
   font-weight: 700;
   font-family: "Times New Roman", Gerogia, serif;
+  padding-top: 110px;
 }
 
 
@@ -123,6 +129,16 @@ p{
 #learnmore{
   text-align: center;
 }
+
+@media only screen and (max-width:500px) {
+  body{
+    margin: auto;
+    width: 100%
+  }
+
+  #color{
+    background-color: white;
+  }
 /*
 .figcap{
   display: flex;
