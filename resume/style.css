@@ -53,6 +53,7 @@ body{
   color: #400010;
   font-size: 3em;
   font-weight: 700;
+  padding-top: 270px;
 
 }
 
@@ -165,7 +166,8 @@ figcaption{
 }
 
 #homepic{
-
+  Padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 @media only screen and (min-device-width: 375px)
@@ -174,7 +176,6 @@ figcaption{
     margin: auto;
     width: 100%
   }
-
 
 
 
