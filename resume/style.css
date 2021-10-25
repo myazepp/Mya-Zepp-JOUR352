@@ -170,18 +170,20 @@ figcaption{
   padding-bottom: 90px;
 }
 
-@media only screen and (min-device-width: 375px)
-  and (max-device-width: 812px) {
+@media only screen and (max-width:500px) {
   body{
     margin: auto;
     width: 100%
   }
 
-
+  #color{
+    background-color: white;
+  }
+}
 
 
   /*add code here*/
-}
+
 /*Give it a width of 60% with a minimum width of 300 pixels.
  Center by giving adding "margin:0 auto;" and give
  it a bottom margin of 30 pixels.*/
