@@ -181,6 +181,16 @@ figcaption{
   }
 }
 
+footer{
+  text-align:center;
+  margin: 20 0 10 0;
+  background-color: #400010;
+  color: #fff;
+  width: 100%;
+   min-width: 300px;
+   height: 75px
+}
+
 
   /*add code here*/
 
