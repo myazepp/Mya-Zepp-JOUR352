@@ -32,9 +32,6 @@ p{
 #heat1{
   height: 500px;
   width: 500px;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
   margin: auto;
   display: block;
 }
@@ -42,9 +39,6 @@ p{
 #heat{
   height: 500px;
   width: 500px;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
   margin: auto;
   display: block;
 }
