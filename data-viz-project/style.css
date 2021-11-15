@@ -30,11 +30,8 @@ p{
 }
 
 #map{
-  height: 500px;
+  height: 600px;
   width: 500px;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
   margin: auto;
   display: block;
 }
@@ -44,8 +41,6 @@ p{
 #pie{
   height: 400px;
   width: 400px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   padding-left: 20px;
 }
 
