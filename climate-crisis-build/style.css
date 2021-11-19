@@ -156,23 +156,14 @@ h3{
 
 }
 
-a:link {
-  text-decoration: none;
-  color: black;
-}
-
-a:visited {
-  text-decoration: none;
+a:link, a:visited {
   color: purple;
+  text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
+a:hover, a:active {
   color: blue;
+  text-decoration: underline;
 }
 
 footer{
