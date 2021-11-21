@@ -4,6 +4,9 @@
   margin: 0 auto;
 
 }
+p{
+  font-family:'georgia', serif;
+}
 
 .nav-logo{
   color:#fff;
@@ -13,11 +16,12 @@
 }
 
 .red{
-  color: #c71e1d;
+  color: #000;
 }
 
 .bg-dark{
-  background: #000 !important;
+  background:#c71e1d !important;
+
 }
 
 .hero-container{
@@ -49,31 +53,31 @@
 }
 
 .hero-sub{
-  font-family: 'Times New Roman', sans-serif;
+  font-family: 'georgia', serif;
   font-size: .30em;
 }
 
 .headline{
   font-size:3em;
   font-weight: 700;
-  font-family: georgia, serif;
+  font-family: 'georgia', serif;
   color: #c71e1d;
 }
 
 .byline{
   font-size: 1em;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Exo 2', sans-serif;
   text-align: left;
   color: grey;
 }
 
 p{
-  font-family: georgia, serif;
+  font-family: 'georgia', serif;
   line-height: 180%
 }
 
 .chapterheadline{
-  font-family: georgia, serif;
+  font-family: 'georgia', serif;
   font-size: 2em;
   font-weight: 700;
   color: #c71e1d;
@@ -114,9 +118,24 @@ p{
 
 }
 
+.quote2{
+  font-size: 3em;
+  color: #c71e1d;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: right;
+}
+
+.attribution2{
+  font-size: .50em;
+  color: #000;
+  font-weight: 200;
+
+}
+
 .photocap{
   text-align: center;
-  font-family: georgia, serif;
+  font-family: 'georgia', serif;
   color: grey;
 }
 
@@ -131,12 +150,10 @@ p{
 #heat{
   height: 500px;
   width: 500px;
-  margin: auto;
-  display: block;
 }
 /* Sidebar */
 .sidebar{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Exo 2', sans-serif;
 border-style: solid;
 border-width: 2px;
 border-color: #c71e1d;
@@ -149,7 +166,7 @@ h3{
 
 .words{
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Exo 2', sans-serif;
 }
 
 .list{
