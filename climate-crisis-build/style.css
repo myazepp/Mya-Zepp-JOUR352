@@ -75,6 +75,7 @@ p{
 p{
   font-family: 'georgia', serif;
   line-height: 180%
+  color: #000;
 }
 
 .chapterheadline{
@@ -141,29 +142,29 @@ p{
 }
 
 /*graphics*/
-#heat1{
+#graph1{
   height: 700px;
   width: 500px;
   margin: auto;
   display: block;
 }
 
-#heat2{
+#graph2{
   height: 500px;
   width: 500px;
   padding-right: 10px;
 }
 
-#heat3{
+#graph3{
   height: 500px;
   width: 100%;
 }
-#heat4{
+#graph4{
 height: 400px;
 width: 400px;
 }
 
-#heat5{
+#graph5{
   height: 400px;
   width: 400px;
 }
