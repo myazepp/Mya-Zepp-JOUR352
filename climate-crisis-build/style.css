@@ -1,7 +1,9 @@
 .container{
-  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 1200px;
-  margin: 0 auto !important;
 }
 
 p{
@@ -143,17 +145,18 @@ p{
 
 /*graphics*/
 
-
 #graph1{
-height: 700px;
-width: 500px;
-  margin: auto;
-  display: block;
+height: 850px;
+max-height: 850px;
+width: 300px;
+max-width: 450px;
+margin: auto;
+display: block;
 }
 
 #graph2{
 height: 400px;
-width: 400px;
+width: 300px;
   padding-right: 10px;
 }
 
@@ -163,12 +166,12 @@ width: 400px;
 }
 #graph4{
 height: 400px;
-width: 400px;
+width: 350px;
 }
 
 #graph5{
   height: 400px;
-  width: 400px;
+  width: 350px;
 }
 /* Sidebar */
 .sidebar{
