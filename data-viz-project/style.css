@@ -66,7 +66,7 @@ p{
 
 #map{
   height: 600px;
-  width: 500px;
+  width: 400px;
   margin: auto;
   display: block;
 }
@@ -81,10 +81,7 @@ p{
 
 #barchart{
   height: 500px;
-  width: 800px;
-  padding-top: 20px;
-  padding-bottom: 0px;
-  padding-left: 0px;
+  width: 700px;
   margin: auto;
   display: block;
 }
