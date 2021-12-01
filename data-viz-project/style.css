@@ -4,7 +4,7 @@
   margin: 0 auto
 }
 
-
+/*overlay*/
 .hero-container{
   position:relative;
   text-align: center;
@@ -18,15 +18,15 @@
 .overlay{
   position: absolute;
   width: 100%;
-  height: 50%;
+  height: 35%;
   top: 25%;
   bottom: 25%;
   background: #000;
-  opacity: .7;
+  opacity: .8;
 }
 
 .hero-head{
-  padding-top:100px;
+  padding-top: 25px;
   margin: 0 auto;
   font-size: 4.5em;
   font-family: 'Exo 2', sans-serif;
@@ -52,7 +52,13 @@
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
+.photocap{
+  text-align: center;
+  font-family: 'georgia', serif;
+  color: grey;
+}
 
+/*body*/
 p{
   font-family: georgia, serif;
   line-height: 180%
@@ -61,17 +67,20 @@ p{
 .chapterheadline{
   font-family: georgia, serif;
   font-size: 2em;
-  font-weight: 700;
+  text-align: center;
+  font-weight: 500;
+  font-style: italic;
 }
 
+/*graphics*/
 #map{
-  height: 600px;
+  height: 500px;
   width: 400px;
+  max-width: 450px;
   margin: auto;
   display: block;
+  padding-right: 10px;
 }
-
-
 
 #pie{
   height: 400px;
@@ -86,24 +95,82 @@ p{
   display: block;
 }
 
-.timeline{
-  height: 700px;
-  width: 300px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 0px;
-  padding-right: 20px;
+/*pull quotes*/
+.quote{
+  font-size: 3em;
+  color: #BC4E01;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.attribution{
+  font-size: .55em;
+  color: #000;
+  font-weight: 450;
+  text-align: center;
+
+}
+
+.quote2{
+  font-size: 2.5em;
+  color: #BC4E01;
+  font-weight: 600;
+  align: center;
+}
+
+/*sidebar*/
+.sidebar{
+font-family: 'Exo 2', sans-serif;
+border-style: solid;
+border-width: 2px;
+border-color: #BC4E01;
+}
+
+h3{
+  color: #BC4E01;
+  text-align: center;
+}
+
+.text{
+  font-size: 1.2em;
+  text-align: center;
+  font-family:'Exo 2', sans-serif;
+}
+
+ul{
+  font-size: 1.2em;
+}
+
+/*footer*/
 footer{
   text-align:center;
   margin: 20 0 10 0;
-  background-color: black;
+  background-color: #BC4E01;
   color: #fff;
   width: 100%;
   min-width: 300px;
-  height: 75px;
+  height: 100px;
 }
 
+@media (max-width: 550px){
+.hero-head{
+  font-size:1.5em;
+  padding-top: 10px;
+}
+
+.overlay{
+  height: 40%;
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+}
+#map{
+  width: 300px;
+  max-width: 450px;
+}
+}
 
 /*hex code for color I need #BC4E01 */
