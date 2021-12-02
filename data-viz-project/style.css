@@ -187,6 +187,11 @@ footer{
   width: 300px;
   max-width: 450px;
 }
+
+#pie{
+  width: 300px;
+  height: 300px;
+}
 }
 
 /*hex code for color I need #BC4E01 */
