@@ -73,13 +73,15 @@ p{
 }
 
 /*graphics*/
-#map{
-  height: 500px;
+#usmap{
+  height: 400px;
   width: 400px;
   max-width: 450px;
-  margin: auto;
-  display: block;
-  padding-right: 10px;
+}
+
+#wmap{
+  height:400px;
+  width:400px;
 }
 
 #pie{
