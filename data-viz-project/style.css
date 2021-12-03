@@ -74,14 +74,11 @@ p{
 
 /*graphics*/
 #usmap{
-  height: 400px;
-  width: 400px;
-  max-width: 450px;
+  width: 60%;
 }
 
 #wmap{
-  height:400px;
-  width:400px;
+  width:80%;
 }
 
 #pie{
