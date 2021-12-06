@@ -108,15 +108,23 @@ p{
   color: #000;
   font-weight: 300;
   text-align: center;
-
 }
 
 .quote2{
   font-size: 2.5em;
   color: #BC4E01;
   font-weight: 600;
-  align: center;
+  padding-bottom: 5px;
+  text-align: left;
 }
+
+.attribution2{
+  font-size: .55em;
+  color: #000;
+  font-weight: 300;
+  text-align: left;
+}
+
 /*photos*/
 .fig1{
   display: flex;
@@ -132,6 +140,26 @@ p{
   max-width: 400px;
   float: right;
   color: grey;
+}
+
+.fig2{
+  display: flex;
+  flex-flow: column;
+  width: 40%;
+  height: 40%;
+  float: left;
+}
+
+.photocap3{
+  display: flex;
+  flex-flow: column;
+  max-width: 400px;
+  float: left;
+  color: grey;
+}
+
+.mmpills{
+  padding-right: 10px;
 }
 
 /*sidebar*/
