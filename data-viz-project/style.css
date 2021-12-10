@@ -74,6 +74,7 @@
 }
 
 /*body*/
+
 p{
   font-family: georgia, serif;
   line-height: 180%
@@ -110,7 +111,35 @@ p{
 }
 
 /*pull quotes*/
-.quote{
+
+.component blockquote.quote {
+    position: relative;
+    text-align: center;
+    padding: 1rem 1.2rem;
+    width: 70%;
+    color: #78909c;
+    margin: 1rem auto 2rem;
+    font-size: 3em;
+    font-weight: 600;
+}
+.component blockquote.EN {
+    background:
+    linear-gradient(to right, #BC4E01 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #BC4E01 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom,#BC4E01 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #BC4E01 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+cite{
+  font-size: .55em;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+}
+
+/*.quote{
   font-size: 3em;
   color: #78909c;
   font-weight: 600;
@@ -124,6 +153,7 @@ p{
   font-weight: 300;
   text-align: center;
 }
+*/
 
 .quote2{
   font-size: 2.5em;
@@ -131,6 +161,8 @@ p{
   font-weight: 600;
   padding-bottom: 5px;
   text-align: left;
+  border-left: 4px solid #BC4E01;
+  padding-left: 10px;
 }
 
 .attribution2{
@@ -138,6 +170,7 @@ p{
   color: #000;
   font-weight: 300;
   text-align: left;
+  padding-left: 10px;
 }
 
 /*photos*/
@@ -215,13 +248,14 @@ ul{
 footer{
   text-align:center;
   margin: 20 0 10 0;
-  background-color: #BC4E01;
+  background-color: #cfd9e2;
   color: #fff;
   width: 100%;
   min-width: 300px;
   height: 100px;
 }
 
+/*media query */
 @media (max-width: 850px){
 .hero-head{
   font-size:2.5em;
