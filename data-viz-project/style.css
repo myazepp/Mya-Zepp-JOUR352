@@ -13,7 +13,6 @@
 
 .red{
   color: #000;
-  text-transform: uppercase;
 }
 
 .bg-dark{
@@ -180,12 +179,13 @@ p{
 }
 
 .talking{
-width: 500px;
-height: 500px;
+width: 100%;
+align: center;
 }
 
-.photocap3{
+.photocap4{
 text-align: center;
+color: grey;
 }
 
 /*sidebar*/
