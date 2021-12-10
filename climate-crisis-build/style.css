@@ -49,6 +49,28 @@ cite{
   font-weight: 300;
   text-align: center;
 }
+
+p {
+  text-align:left;
+  line-height:180%;
+  font-size: 1.25em;
+  font-family: 'Playfair Display', serif;
+}
+
+.opening-letter::first-letter {
+  font-family: 'Playfair Display', serif !important;
+	font-size: 4em;
+	float: left;
+  line-height: 0.8;
+  margin-top: 0.1em;
+  margin-left: -0.05em;
+  font-weight:400;
+  background: #F23030;
+  color: white;
+  padding:5px 10px 5px 10px;
+  margin-right: 10px;
+}
+
 .hero-container{
   position:relative;
   text-align: center;
