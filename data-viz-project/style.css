@@ -179,6 +179,15 @@ p{
   padding-right: 10px;
 }
 
+.talking{
+width: 500px;
+height: 500px;
+}
+
+.photocap3{
+text-align: center;
+}
+
 /*sidebar*/
 .sidebar{
 font-family: 'Exo 2', sans-serif;
