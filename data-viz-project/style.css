@@ -228,7 +228,7 @@ cite{
 
 .talking{
 width: 100%;
-align: center;
+text-align: center;
 }
 
 .photocap4{
@@ -273,7 +273,6 @@ a:hover, a:active {
 /*footer*/
 footer{
   text-align:center;
-  margin: 20 0 10 0;
   background-color: #cfd9e2;
   color: #fff;
   width: 100%;
@@ -338,5 +337,4 @@ footer{
   height: 50%;
 }
 }
-
 /*hex code for color I need #BC4E01 */
