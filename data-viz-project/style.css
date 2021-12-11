@@ -336,5 +336,9 @@ footer{
   width: 50%;
   height: 50%;
 }
+
+.fig1{
+  max-width: 200px;
+}
 }
 /*hex code for color I need #BC4E01 */
